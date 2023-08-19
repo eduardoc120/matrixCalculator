@@ -1,0 +1,40 @@
+# Compiled object files and libraries
+*.o
+*.a
+*.lib
+
+# Compiled binaries
+*.exe
+*.out
+
+# Build artifacts
+/build
+
+# IDE-specific folders
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.sln.docstates
+
+# Dependency folders (specific to your build tools)
+/vendor/
+/prefix/
+/tools/
+
+# Output files (if any)
+/output/
+/test/output/
+
+# Temporary files
+*.tmp
+
+# Log files
+*.log
+
+# macOS specific files
+.DS_Store
+
+# Compiled Google Test framework (if you have it as a submodule)
+/googletest-main/
